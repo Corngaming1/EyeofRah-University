@@ -2,12 +2,12 @@
 
 
 ## 🛠️ **Phase 1: Planning & Setup  
-| Task                         | Status   | Due Date  
+| Task                         | Status   | Date  
 |------------------------------|----------|-----------
 | Set up Git repository        |  ✅ Done |   02-02-2025  
 | Create `.gitignore` file     |  ✅ Done |   02-02-2025   
-| Plan system architecture     |  ⏳ Ongoing |  Unknown  
-| Define database schema       |  ⏳ Ongoing |  Unknown  
+| Implement branching strategy    |  ✅ Done |  02-06-2025  
+| Create implementation timeline    |  ✅ Done |   02-06-2025  
 | Write initial documentation  |  ✅ Done  |  02-02-2025
 
 ## 🚀 **Phase 2: Feature Development 
