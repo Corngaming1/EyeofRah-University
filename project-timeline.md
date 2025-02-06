@@ -13,7 +13,7 @@
 ## 🚀 **Phase 2: Feature Development 
 | Feature                      | Branch Name                 |    Status  | Due Date  
 |------------------------------|---------------------------  |------------|-----------
-| Course Management            |  `feature/course-management` | ⏳ Ongoing |   Unknown  
+| Course Management            |  `feature/course-management` | 🔜 Pending |   Unknown  
 | Student Management           |  `feature/student-management`| 🔜 Pending |  Unknown 
 | Faculty Management           |  `feature/faculty-management`| 🔜 Pending |  Unknown   
 | Authentication System        |  `feature/authentication`    | 🔜 Pending |  Unknown  
