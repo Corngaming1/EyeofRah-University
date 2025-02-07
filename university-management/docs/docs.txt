@@ -1,1 +1,89 @@
 
+# System Requirements
+
+## Functional Requirements
+1. **Course Management**: Add, edit, delete, and view courses.
+2. **Student Management**: Enroll students, update student details.
+3. **Faculty Management**: Assign instructors to courses.
+4. **Grade Management**: Record and calculate student grades.
+5. **Authentication System**: User login and role-based access control.
+6. **Reporting System**: Generate reports (grades, student lists, etc.).
+
+## Non-Functional Requirements
+1. **Scalability**: System should handle increasing number of courses and users.
+2. **Security**: User authentication and access control.
+3. **Usability**: User-friendly interface for administrators and students.
+4. **Maintainability**: Code should be modular and well-documented.
+
+---
+
+# Architecture Design
+
+## Overview
+- The system follows a **modular structure**, separating backend logic, frontend UI (if applicable), and documentation.
+- **No SQL databases are used**, relying on **file-based storage** for data persistence.
+
+## Components
+1. **Backend** (Python-based)
+   - Handles course, student, and faculty operations.
+2. **Frontend** (If applicable)
+   - Provides user interface for managing the system.
+3. **Storage Layer**
+   - Uses JSON or other file-based storage instead of SQL.
+4. **Authentication**
+   - Implements role-based access for administrators and users.
+
+---
+
+# Development Guidelines
+
+## Coding Standards
+- Follow **PEP 8** for Python code.
+- Use meaningful function and variable names.
+- Keep functions small and focused on a single task.
+
+## Directory Structure
+```
+|___src
+|   |___backend
+|   |___frontend
+|___docs
+|___tests
+```
+
+## Commit Message Guidelines
+- Use descriptive commit messages:
+  ```
+  feat: Added course creation feature
+  fix: Resolved issue with student enrollment
+  ```
+
+## Branching Strategy
+- `main`: Stable production-ready code.
+- `develop`: Active development branch.
+- `feature/*`: Individual features (e.g., `feature/course-management`).
+
+---
+
+# Version Control
+
+## Workflow
+1. **Create a feature branch**
+   ```sh
+   git checkout -b feature/course-management
+   ```
+2. **Commit changes**
+   ```sh
+   git add .
+   git commit -m "feat: Implemented course CRUD operations"
+   ```
+3. **Push to GitHub**
+   ```sh
+   git push origin feature/course-management
+   ```
+4. **Merge to develop/main when ready**
+   ```sh
+   git checkout develop
+   git merge feature/course-management
+   ```
+
