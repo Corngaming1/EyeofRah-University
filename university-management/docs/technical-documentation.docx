@@ -1,0 +1,53 @@
+🛠 Technical Development
+
+📌 Technologies Used
+
+#Programming Language: Python
+
+#Database: SQL-based relational database
+
+#Version Control: Git & GitHub
+
+#Testing Framework: Pytest
+
+📊 Database Schema
+
+#Courses Table: Stores course details (course_id, name, description, credits)
+
+#Students Table: Stores student records (student_id, name, email, enrolled_courses)
+
+#Faculty Table: Stores faculty details (faculty_id, name, department, assigned_courses)
+
+#Grades Table: Stores student grades (grade_id, student_id, course_id, grade)
+
+#Users Table: Manages authentication (user_id, username, password_hash, role)
+
+📂 Development Workflow
+
+1. Feature Branching
+
+##Develop new features in separate branches (feature/course-management, etc.).
+
+##Merge feature branches into develop after testing.
+
+2. Code Review & Testing
+
+##Write unit tests before merging into develop.
+
+##Run pytest to ensure all features work correctly.
+
+3. Deployment & Maintenance
+
+##Merge develop into main for stable releases.
+
+##Maintain documentation and update features as needed.
+
+📜 Development Guidelines
+
+#Follow PEP8 coding standards.
+
+#Use meaningful commit messages.
+
+#Document important functions and classes.
+
+Regularly push updates to GitHub.
