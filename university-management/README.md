@@ -19,6 +19,7 @@ The University Course Management System is designed to manage courses, students,
 *Reporting System: Generate reports (grades, student lists, etc.).
 
 📂 Project Structure
+```
 |___ university-management
 |   |___ config/               # Configuration files
 |   |___ docs/                 # Documentation files
@@ -29,7 +30,7 @@ The University Course Management System is designed to manage courses, students,
 |   |___ test/                 # Unit tests
 |   |___ main.py               # Main entry point of the system
 |   |___ README.md             # Project Overview
-
+```
 📜 License
 
 This project is open-source and available under the MIT License.
