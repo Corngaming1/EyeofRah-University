@@ -26,11 +26,11 @@ The Course Management System is a comprehensive solution for managing courses, s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/course-management-system.git
+   git clone (https://github.com/Corngaming1/EyeofRah-University.git)
    ```
 2. Navigate to the project directory:
    ```bash
-   cd course-management-system
+   cd EyeofRah-University
    ```
 3. Install backend dependencies:
    ```bash
